@@ -2,7 +2,11 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://Abhishek-Gundaram.github.io/Portfolio",
+  "Scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
