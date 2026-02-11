@@ -12,9 +12,6 @@ import FadeIn from './components/FadeIn';
 import './index.scss';
 
 function App() {
-    useEffect(() => {
-  document.title = 'Abhishek Gundaram';
-}, []);
     const [mode, setMode] = useState<string>('dark');
 
     const handleModeChange = () => {
