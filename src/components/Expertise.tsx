@@ -11,6 +11,7 @@ const labelsFirst = [
     "Spring MVC",
     "Spring Security",
     "Spring Batch",
+    "Node.js",
     "React.js",
     "Angular",
     "Typescript",
